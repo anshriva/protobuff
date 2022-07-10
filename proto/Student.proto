@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.anubhav.proto";
+
+message StudentsClass{
+  repeated Student students = 1;
+}
+
+message Student {
+  string name = 1;
+  int32 age = 2;
+}

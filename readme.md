@@ -22,7 +22,7 @@ Example:
 ``
 10 11 10 7 65 110 117 98 104 97 118
 `` \
-assuming 1 char = 1 byte, the data sent in protobuf is significantly less. \
+assuming 1 char = 1 byte, the data sent in protobuf is significantly less.
 
 #### reason for small size data
 The reason is that the schema is already available with client as well as server.\
